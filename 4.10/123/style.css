@@ -1,0 +1,33 @@
+body {
+    background-color: #93e7a0;
+}
+
+.p1 {
+    color: aqua;
+    /* 加粗 *100*/
+    font-weight: bold;
+}
+
+.cc {
+    font-size: 16px;
+    font-family: 隶书;
+    text-align: center;
+    /* 穿越线 */
+    text-decoration-line: line-through;
+}
+
+.ss {
+    /* 斜体 */
+    font-style: italic;
+}
+
+p {
+    /* 要按顺序 */
+    font: bold 20px "隶书"
+}
+
+a {
+    /* 去掉下划线 */
+    text-decoration: none;
+    color: blueviolet;
+}

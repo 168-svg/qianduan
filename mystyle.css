@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(238, 201, 188);
+}
+
+h1 {
+    color: aquamarine;
+    text-align: center;
+    font-size: 50px;
+}
+
+.p1 {
+    color: black;
+    text-align: center;
+}
