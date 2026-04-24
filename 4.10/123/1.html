@@ -2,28 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- 指定视窗，确保移动设备显示正常 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 页面标题，建议改为更有意义的文本 -->
     <title>Document</title>
     <style>
+      /* ID 选择器：用于样式化 id="pp1" 的元素 */
       #pp1 {              
-        color: blue;
-        text-align: center;
-        font-size: 50px;
+        color: blue;              /* 文本颜色为蓝色 */
+        text-align: center;       /* 文本居中 */
+        font-size: 50px;          /* 字体大小为 50px（较大） */
       }
+      /* ID 选择器：用于样式化 id="ppp2" 的元素 */
       #ppp2 {
-        color: rgb(19, 164, 164);
-        text-align: center;
-        background-color: black;
+        color: rgb(19, 164, 164); /* 文本颜色为青绿色 */
+        text-align: center;       /* 文本居中 */
+        background-color: black;  /* 背景为黑色——注意对比度 */
       }
+      /* 类选择器：用于样式化 class="bc" 的元素 */
       .bc {
-        color: rebeccapurple;
-        text-align: center;
+        color: rebeccapurple;     /* 字体颜色 */
+        text-align: center;       /* 居中 */
       }
     </style>
   </head>
   <body>
+    <!-- 注意：<marquee> 是过时标签，兼容性差。建议用 CSS 动画替代 -->
     <p id="pp1"><marquee behavior="" direction="">hahahahhahaha</marquee></p>
+    <!-- 简单内容块，ID 唯一，用于单独样式 -->
     <p id="ppp2">1236123981389317</p>
+    <!-- 使用 class 进行通用样式复用 -->
     <p class="bc">asdadaddadda</p>
   </body>
 </html>
