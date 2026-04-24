@@ -8,23 +8,31 @@
 </head>
 
 <body>
+    <!-- 表单标题：提示用户填写信息 -->
     <h1>请填写你的信息：</h1>
+    <!-- 简单的 HTML 表单：action 为空，默认提交当前页面 -->
     <form action="">
+        <!-- 姓名输入框 -->
         <p>姓名：<input type="text"><br></p>
+        <!-- 年龄输入框 -->
         <p>年龄：<input type="text"><br></p>
+        <!-- 性别单选按钮：同一 name 保证只能选择一项 -->
         <p>性别：
             <label for="nan">男<input type="radio" id="nan" name="sex"></label>
             <label for="nv">女<input type="radio" id="nv" name="sex"></label><br></p>
+        <!-- 爱好多选框：可以选择多个选项 -->
         <p>爱好：<input type="checkbox" name="hoppy">骑车
             <input type="checkbox" name="hoppy">打球
             <input type="checkbox" name="hoppy">游戏
             <input type="checkbox" name="hoppy">啥都玩</p>
+        <!-- 下拉选择框示例 -->
         <p>工作：
             <select name="123" id="">
             <option value="">123</option>
             <option value="">123</option>
             <option value="">123</option>
         </select></p><br>
+        <!-- 提交与重置按钮 -->
         <input type="submit" value="提交">
         <input type="reset">
     </form>

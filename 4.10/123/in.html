@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      /*通配符选择器*/
-      * {
-        padding: 0%;
-        margin: 0%;
-      }
-      div {
-        background-color: rgb(237, 105, 105);
-        width: 100px;
-        height: 100px;
-      }
-      /*id选择器*/
-      #div2 {
-        background-color: #21bc31;
-        width: 100px;
-        height: 100px;
-      }
-      #div3 {
-        background-color: #2966ec;
-        width: 100px;
-        height: 100px;
+        /* 通配符选择器：重置所有元素的内外边距为 0（示例用途） */
         
-      }
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        /* 基础 div 样式：设置大小与背景颜色，供下方三个示例使用 */
+        
+        div {
+            background-color: rgb(237, 105, 105);
+            width: 100px;
+            height: 100px;
+        }
+        /* ID 选择器示例：单独修改 #div2 的背景色 */
+        
+        #div2 {
+            background-color: #21bc31;
+            width: 100px;
+            height: 100px;
+        }
+        /* 另一个 ID 示例，展示不同背景色 */
+        
+        #div3 {
+            background-color: #2966ec;
+            width: 100px;
+            height: 100px;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
+    <!-- 三个 div 示例：分别使用默认、#div2、#div3 的样式 -->
     <div></div>
     <div id="div2"></div>
     <div id="div3"></div>
-  </body>
+</body>
+
 </html>

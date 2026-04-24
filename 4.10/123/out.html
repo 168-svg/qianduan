@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <style>
-      p {
-        /* 缩进 */
-        text-indent: 2em;
-        line-height: 24px;
-      }
+        /* 本地覆盖样式：段落缩进与行高 */
+        
+        p {
+            text-indent: 2em;
+            line-height: 24px;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
+    <!-- 使用外部样式表 style.css 定义的类 p1, cc, ss -->
     <p class="p1">qweqeq</p>
+    <!-- 长段落示例：演示换行与文本溢出样式 -->
     <p class="cc">
-      河南财政金融学院计算机与人工智能学院河南财政金融学院计算机与人工智能学院河南财政金融学院计算机与人工智能学院河南财政金融学院计算机与人工智能学院
+        河南财政金融学院计算机与人工智能学院河南财政金融学院计算机与人工智能学院河南财政金融学院计算机与人工智能学院河南财政金融学院计算机与人工智能学院
     </p>
+    <!-- 链接示例：链接的样式由外部样式表控制 -->
     <p class="ss">
-      <a href="https://www.hafu.edu.cn/"
-        >河南财政金融学院计算机与人工智能学院</a
+        <a href="https://www.hafu.edu.cn/">河南财政金融学院计算机与人工智能学院</a
       >
     </p>
   </body>

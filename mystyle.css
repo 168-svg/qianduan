@@ -1,12 +1,20 @@
+/* 页面主体背景色：设置整个页面的背景色 */
+
 body {
     background-color: rgb(238, 201, 188);
 }
+
+
+/* 一级标题样式：颜色、居中与字号 */
 
 h1 {
     color: aquamarine;
     text-align: center;
     font-size: 50px;
 }
+
+
+/* 通用段落类 p1：用于演示文本样式 */
 
 .p1 {
     color: black;

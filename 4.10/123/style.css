@@ -1,33 +1,49 @@
+/* 根元素背景色，用于示例页面 */
+
 body {
     background-color: #93e7a0;
 }
 
+
+/* 类 p1：演示颜色与加粗 */
+
 .p1 {
     color: aqua;
-    /* 加粗 *100*/
+    /* 使文字加粗 */
     font-weight: bold;
 }
+
+
+/* 类 cc：示例字体、大小与删除线效果 */
 
 .cc {
     font-size: 16px;
     font-family: 隶书;
     text-align: center;
-    /* 穿越线 */
+    /* 添加删除线（穿越线） */
     text-decoration-line: line-through;
 }
 
+
+/* 类 ss：斜体样式 */
+
 .ss {
-    /* 斜体 */
     font-style: italic;
 }
 
+
+/* p 元素的复合 font 声明，注意 font 的顺序要求 */
+
 p {
-    /* 要按顺序 */
+    /* 这里使用简写：font-style font-variant font-weight font-size/line-height font-family
+       显式使用了加粗、字号和字体族 */
     font: bold 20px "隶书"
 }
 
+
+/* 链接样式：去掉下划线并设置颜色 */
+
 a {
-    /* 去掉下划线 */
     text-decoration: none;
     color: blueviolet;
 }
